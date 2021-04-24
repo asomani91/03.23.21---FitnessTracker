@@ -1,0 +1,23 @@
+{
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asomani91/03.23.21---FitnessTracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asomani91/03.23.21---FitnessTracker/issues"
+  },
+  "homepage": "https://github.com/asomani91/03.23.21---FitnessTracker#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
