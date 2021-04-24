@@ -10,7 +10,7 @@ const mongoose = require("mongoose");
 
 const Exercise = require("./models/Exercise");
 
-const URL = "mongodb://localhost:27017/fitness?retryWrites=true&w=majority";
+const URL = "mongodb+srv://root:Dolphins519@cluster0.ewptw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 // Connect to Database
 mongoose.connect(URL, { useNewUrlParser: true }, () =>
   console.log("Connected to DB! ✅ ")
